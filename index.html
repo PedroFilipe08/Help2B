@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help 2B - Genética</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Help 2B - Genética</h1>
+        <nav>
+            <ul>
+                <li><a href="#introducao">Introdução</a></li>
+                <li><a href="#conteudo">Conteúdo</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="introducao">
+        <h2>Introdução à Genética</h2>
+        <p>A genética é o estudo dos genes, da hereditariedade e da variação dos organismos. Descubra os fundamentos aqui!</p>
+    </section>
+    
+    <section id="conteudo">
+        <h2>Conteúdo Aprofundado</h2>
+        <p>Aqui você encontrará materiais detalhados sobre DNA, RNA, mutações, leis de Mendel e muito mais.</p>
+        <button onclick="mostrarMaterial()">Acessar Material</button>
+        <div id="material" style="display: none;">
+            <p>DNA é a molécula responsável pela hereditariedade e codificação das proteínas essenciais para a vida...</p>
+        </div>
+    </section>
+    
+    <section id="quiz">
+        <h2>Teste seus conhecimentos</h2>
+        <button onclick="iniciarQuiz()">Começar Quiz</button>
+    </section>
+    
+    <script>
+        function mostrarMaterial() {
+            document.getElementById('material').style.display = 'block';
+        }
+        function iniciarQuiz() {
+            alert("Quiz em desenvolvimento!");
+        }
+    </script>
+</body>
+</html>
